@@ -41,10 +41,12 @@ if (weishiObj):
 for each in weishi:
     if each not in weishiObjList:
         # print(each)
+        pass
 
 for each in weishiObjList:
     if each not in weishi:
         # print(each)
+        pass
 
 for each in weishiObj:
     for key, value in each.items():
