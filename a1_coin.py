@@ -1,3 +1,7 @@
+'''
+第一讲：模拟掷硬币程序
+'''
+
 score = 0
 input = input('输入硬币朝面情况\n')
 coin = int(input)

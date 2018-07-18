@@ -1,3 +1,6 @@
+'''
+利用随机数函数升级掷硬币程序
+'''
 import random
 
 positive = {1, '正面'}

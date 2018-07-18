@@ -1,3 +1,6 @@
+'''
+增加枚举使程序提高可维护性
+'''
 import random
 
 coin_face = {

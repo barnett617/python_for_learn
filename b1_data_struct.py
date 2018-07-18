@@ -1,3 +1,6 @@
+'''
+python list集合使用
+'''
 weishi = ['zhanghuaiting', 'hanlihao', 'wangzhigang', 'helinfeng',
           'zhouhaiqiang', 'zhanglei', 'houzhichao', 'guojin',
           'shiruiru', 'wujinsheng', 'wangjianxin', 'huxuejie',

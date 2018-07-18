@@ -1,2 +1,2 @@
 # python_for_learn
-For learn
+A record for learning and teaching python.
