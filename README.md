@@ -1,6 +1,7 @@
 # python_for_learn
 A record for learning and teaching python.
 Welcome to join and help us better.
+<<<<<<< HEAD
 
 ## 连接数据库准备(python3)
 
@@ -43,3 +44,7 @@ mysql> UPDATE user SET Password = PASSWORD('newpass') WHERE user = 'root';
 
 mysql> FLUSH PRIVILEGES;
 ```
+=======
+hello
+
+>>>>>>> afd86d4bb729ac3baf797b6b757632cc16e9d4b2
