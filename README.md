@@ -32,6 +32,14 @@ cd ..
 rm -rf PyMySQL/
 ```
 
+### 关于pymysql
+
+[PyMySQL](https://github.com/PyMySQL/PyMySQL)
+
+QA: 网上教的都是python2使用MySQLdb模块，python3用PyMySQL模块，为什么我的python2却成功地引入了PyMySQL
+
+> 仔细看PyMySQL在github中的介绍可发现，PyMySQL支持python2.7或大于等于python3.4版本的python，所以可能恰巧你使用的python2是python2.7
+
 ### 修改mysql原始密码
 
 ```
@@ -52,3 +60,5 @@ mysql> FLUSH PRIVILEGES;
 
 - [tutorialspoint](https://www.tutorialspoint.com/python3/python_database_access.htm)
 - [菜鸟教程-中文python3教程](http://www.runoob.com/python3/python3-mysql.html)
+- [python2.7 and python3 操作MySQL数据库类](https://my.oschina.net/leeyisoft/blog/909145)
+- [What is __pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
