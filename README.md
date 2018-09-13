@@ -51,3 +51,4 @@ mysql> FLUSH PRIVILEGES;
 ## 参考链接
 
 - [tutorialspoint](https://www.tutorialspoint.com/python3/python_database_access.htm)
+- [菜鸟教程-中文python3教程](http://www.runoob.com/python3/python3-mysql.html)
