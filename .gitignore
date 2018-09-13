@@ -1,3 +1,13 @@
+# db
 db.db
-.idea/*
-.vscode/*
+
+# idea
+# 需要.idea指定的是.idea目录整体，若.idea/*仅指.idea/下的所有文件，但.idea目录还是会被git识别到
+.idea
+
+# vscode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

@@ -62,3 +62,5 @@ mysql> FLUSH PRIVILEGES;
 - [菜鸟教程-中文python3教程](http://www.runoob.com/python3/python3-mysql.html)
 - [python2.7 and python3 操作MySQL数据库类](https://my.oschina.net/leeyisoft/blog/909145)
 - [What is __pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
+- [Git忽略文件.gitignore的使用](https://www.jianshu.com/p/a09a9b40ad20)
+- [gitignore](https://github.com/github/gitignore)
