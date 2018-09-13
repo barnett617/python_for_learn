@@ -13,10 +13,7 @@
  
 # import pymysql
 
-# db_ip = "45.76.52.16"
-# db_username = "root"
-# db_password = "toor"
-# db_name = "python_for_learn"
+
 
 # db_list = []
 
