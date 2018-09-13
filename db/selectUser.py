@@ -8,12 +8,12 @@ db_username = "root"
 db_password = "toor"
 db_name = "python_for_learn"
 
-con = pymysql.connect(db_ip, db_username, db_password, db_name)
+# con = pymysql.connect(db_ip, db_username, db_password, db_name)
 
-cursor = con.cursor()
+# cursor = con.cursor()
 
-cursor.execute("SELECT * FROM user")
+# cursor.execute("SELECT * FROM user")
 
-rows = cursor.fetchall()
+# rows = cursor.fetchall()
 
-print (rows)
+# print (rows)

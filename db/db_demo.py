@@ -1,14 +1,24 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
+
+'''
+脚本语言的第一行，目的就是指出，你想要你的这个文件中的代码用什么可执行程序去运行它
+
+#!/usr/bin/python3是告诉操作系统执行这个脚本的时候，调用/usr/bin下的python3解释器；
+#!/usr/bin/env python3这种用法是为了防止操作系统用户没有将python3装在默认的/usr/bin路径里。
+# 当系统看到这一行的时候，首先会到env设置里查找python3的安装路径，再调用对应路径下的解释器程序完成操作。
+#!/usr/bin/python3相当于写死了python3路径;
+#!/usr/bin/env python3会去环境设置寻找python3目录,推荐这种写法
+'''
  
-import pymysql
+# import pymysql
 
-db_ip = "45.76.52.16"
-db_username = "root"
-db_password = "toor"
-db_name = "python_for_learn"
+# db_ip = "45.76.52.16"
+# db_username = "root"
+# db_password = "toor"
+# db_name = "python_for_learn"
 
-db_list = []
+# db_list = []
 
 # f = open('../db.db','r')
 # result = list()
@@ -21,15 +31,15 @@ db_list = []
 # f.close()          
  
 # 打开数据库连接
-db = pymysql.connect(db_ip, db_username, db_password, db_name)
+# db = pymysql.connect(db_ip, db_username, db_password, db_name)
  
 # 使用 cursor() 方法创建一个游标对象 cursor
-cursor = db.cursor()
+# cursor = db.cursor()
  
 # sql = """INSERT INTO USER(id,username, info)
 #          VALUES ('3', 'jingtao', 'houhouhou')"""
 
-sql = "SELECT * FROM USER"
+# sql = "SELECT * FROM USER"
 
 # try:
 #    # 执行sql语句
@@ -53,12 +63,12 @@ sql = "SELECT * FROM USER"
 # 使用 execute()  方法执行 SQL 查询 
 # cursor.execute("SELECT VERSION()")
 
-cursor.execute("SELECT 1 from USER")
+# cursor.execute("SELECT 1 from USER")
  
 # 使用 fetchone() 方法获取单条数据.
-data = cursor.fetchone()
+# data = cursor.fetchone()
  
-print ("Database version : %s " % data)
+# print ("Database version : %s " % data)
  
 # 关闭数据库连接
-db.close()
+# db.close()

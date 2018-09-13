@@ -10,26 +10,26 @@ db_name = "python_for_learn"
 
 
 db_list = []
-f = open('../db.db','r')
-result = list()
-for line in open('../db.db'):
-    line = f.readline()
-    db_list.append(line)
-    # print line
-    result.append(line)
-# print db_list
-# print result
-f.close()  
+# f = open('../db.db','r')
+# result = list()
+# for line in open('../db.db'):
+#     line = f.readline()
+#     db_list.append(line)
+#     # print line
+#     result.append(line)
+# # print db_list
+# # print result
+# f.close()  
 
-config = []
+# config = []
 
-for each in result:
-    config.append(str(each).replace(' ', '').split('=')[1])
+# for each in result:
+#     config.append(str(each).replace(' ', '').split('=')[1])
 
-print(config[0])
-print(config[1])
-print(config[2])
-print(config[3])
+# print(config[0])
+# print(config[1])
+# print(config[2])
+# print(config[3])
 
 
 # con = pymysql.connect(config[0], config[1], config[2], config[3])

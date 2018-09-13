@@ -43,3 +43,11 @@ mysql> UPDATE user SET Password = PASSWORD('newpass') WHERE user = 'root';
 
 mysql> FLUSH PRIVILEGES;
 ```
+
+## 协作准备
+
+[gitlab或github下fork后如何同步源的新更新内容](https://www.zhihu.com/question/28676261)
+
+## 参考链接
+
+- [tutorialspoint](https://www.tutorialspoint.com/python3/python_database_access.htm)
