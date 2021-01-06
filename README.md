@@ -2,6 +2,11 @@
 A record for learning and teaching python.
 Welcome to join and help us better.
 
+## 最新更新
+
+- [关于python学习](./doc/about_learning_python.md)
+- [关于python语言](./doc/about_python.md)
+
 ## 连接数据库准备(python3)
 
 ### 服务器开启数据库应用对应端口
